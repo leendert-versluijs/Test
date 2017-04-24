@@ -19,13 +19,18 @@ namespace TestApp.Droid
 		{
 			TabLayoutResource = Resource.Layout.Tabbar;
 			ToolbarResource = Resource.Layout.Toolbar;
-			MobileCenter.Start("0c8f5b78-8984-4484-855c-5e006b9fab98",
-		typeof(Analytics), typeof(Crashes));
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
 
 			LoadApplication(new App());
+		}
+
+		protected override void OnStart()
+		{
+			MobileCenter.Start("ios=0c8f5b78-8984-4484-855c-5e006b9fab98;android=b67e26ea-8202-4e6d-abe0-28a7a0853453",
+		typeof(Analytics), typeof(Crashes));
+			base.OnStart();
 		}
 	}
 }

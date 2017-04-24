@@ -27,6 +27,11 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidKeyStore>True</AndroidKeyStore>
+    <AndroidSigningKeyStore>/Users/versl09/Test.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>testtest</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>Test</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>testtest</AndroidSigningKeyPass>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
