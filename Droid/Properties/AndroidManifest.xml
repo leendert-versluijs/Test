@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100000" android:versionName="1.0.0" package="nl.belastingdienst.test.leendert.acc.testapp">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="101000" android:versionName="1.1.0" package="nl.belastingdienst.test.leendert.acc.testapp">
   <uses-sdk android:minSdkVersion="15" />
   <application android:label="TestApp">
   </application>
